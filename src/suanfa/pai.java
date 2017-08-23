@@ -3,9 +3,9 @@ package suanfa;
 import java.util.*;
 public class pai{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);//java的输入流
         while(sc.hasNext()){
-            String s1 = sc.nextLine();
+            String s1 = sc.nextLine();//enter键结束，且输入为enter之前的内容
             String s2 = sc.nextLine();
             int l1 = s1.length();
             int l2 = s2.length();
